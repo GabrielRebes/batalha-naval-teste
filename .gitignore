@@ -1,0 +1,5 @@
+.venv
+database/*.sqlite
+database/*.sqlite3
+database/*.dat
+.pytest_cache
