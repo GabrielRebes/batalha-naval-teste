@@ -1,3 +1,4 @@
+from typing import Union
 from fastapi import FastAPI
 from batalha_naval.controllers.jogador_controller import JogadorController
 
