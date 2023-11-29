@@ -3,6 +3,9 @@ from batalha_naval.controllers.jogador_controller import JogadorController
 
 app = FastAPI()
 
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
 
 # token => https://en.wikipedia.org/wiki/JSON_Web_Token
 @app.get("/partida/{id_partida}/tabuleiro")
