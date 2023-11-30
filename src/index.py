@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.controllers.jogador_controller import JogadorController
+#from src.controllers.jogador_controller import JogadorController
 
 app = FastAPI()
 
