@@ -1,1 +1,1 @@
-from src.index import app
+from main import app
