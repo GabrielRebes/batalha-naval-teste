@@ -1,1 +1,1 @@
-from batalha-naval-teste.main import app
+from batalha_naval.main import app
