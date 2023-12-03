@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "batalha_naval": "/(.*)",
+      "src": "/(.*)",
       "dest": "api/main.py"
     }
   ]

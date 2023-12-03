@@ -1,1 +1,1 @@
-from batalha_naval.main import app
+from src.main import app
