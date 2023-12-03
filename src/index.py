@@ -1,9 +1,6 @@
 from fastapi import FastAPI
-<<<<<<< HEAD
-from batalha_naval.controllers.jogador_controller import JogadorController
-=======
 from src.controllers.jogador_controller import JogadorController
->>>>>>> 9d99f37d305b3450b142df88c502364580b89dd9
+
 
 app = FastAPI()
 
